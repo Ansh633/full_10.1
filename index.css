@@ -1,0 +1,116 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.navbar .buttons {
+  display: flex;
+}
+
+.navbar .buttons button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.featured-image img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+}
+
+.featured-articles, .featured-tutorials {
+  margin: 40px 20px;
+  text-align: center;
+}
+
+.article-list, .tutorial-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.article-card, .tutorial-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.article-card img, .tutorial-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.sign-up {
+  text-align: center;
+  margin: 40px;
+}
+
+.sign-up input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+
+.sign-up button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin: 10px 0;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.social-media {
+  font-size: 24px;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
